@@ -1,6 +1,6 @@
 Projet Open Classrooms de blog
 # Information du projet
-Siteweb : https://www.blog.salmiazzeddine.fr
+
 Projet de la formation Développeur d'application - PHP / Symfony.
 
 Créez votre premier blog en PHP - [Lien de la formation](https://openclassrooms.com/fr/paths/59-developpeur-dapplication-php-symfony)
