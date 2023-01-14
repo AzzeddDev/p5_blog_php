@@ -1,0 +1,123 @@
+.btn-classic {
+  top: 0;
+  left: 0;
+  transition: all .15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: $white;
+  color: $primary-color;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid $primary-color;
+  border-radius: 8px;
+  box-shadow: 0px 8px 0 $primary-color, 0px 7px 0 $primary-color, 0px 6px 0 $primary-color, 0px 5px 0 $primary-color, 0px 4px 0 $primary-color, 0px 3px 0 $primary-color, 0px 2px 0 $primary-color, 0px 1px 0 $primary-color;
+  text-decoration: none;
+  
+  &:hover {
+    color: $primary-color;
+    top: 4px;
+    left: 0px;
+    box-shadow: 0px 4px 0 $primary-color, 0px 3px 0 $primary-color, 0px 2px 0 $primary-color, 0px 1px 0 $primary-color;
+    }
+  }
+  
+  a.btn-classic {
+    position: relative;
+  }
+  
+  a:active.btn-classic {
+    top: 8px;
+    left: 0px;
+    box-shadow: none;
+  }
+
+
+
+.btn-nav {
+    top: 0;
+    left: 0;
+    transition: all .15s linear 0s;
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: $white;
+    color: $secondary-color;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid $primary-color;
+    border-radius: 8px;
+    box-shadow: 0px 4px 0 $primary-color, 0px 3px 0 $primary-color, 0px 2px 0 $primary-color;
+    text-decoration: none;
+    
+    &:hover {
+      color: $primary-color;
+      top: 2px;
+      left: 0px;
+      box-shadow: 0px 2px 0 $primary-color, 0px 1px 0 $primary-color;
+      }
+    }
+    
+    a.btn-nav {
+      position: relative;
+    }
+    
+    a:active.btn-nav {
+      top: 4px;
+      left: 0px;
+      box-shadow: none;
+    }
+
+.btn-footer {
+  top: 0;
+  left: 0;
+  transition: all .15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: $white;
+  color: $secondary-color;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid $primary-color;
+  border-radius: 8px;
+  box-shadow: 0px 6px 0 $primary-color, 0px 5px 0 $primary-color, 0px 5px 0 $primary-color, 0px 4px 0 $primary-color, 0px 3px 0 $primary-color, 0px 2px 0 $primary-color;
+  text-decoration: none;
+  
+  &:hover {
+    color: $primary-color;
+    top: 3px;
+    left: 0px;
+    box-shadow: 0px 4px 0 $primary-color, 0px 3px 0 $primary-color, 0px 2px 0 $primary-color, 0px 1px 0 $primary-color;
+  }
+}
+
+a.btn-footer {
+   position: relative;
+}
+
+a:active.btn-footer {
+  top: 8px;
+  left: 0px;
+  box-shadow: none;
+}
+
+.btn-aside {
+  background: $shadow-light;
+  color: $primary-color;
+  font-weight: 500;
+  padding: 5px 10px;
+  border: 1px solid $shadow-light;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: .25s ease-in-out all;
+}
+
+.btn-aside:hover {
+  background: $primary-color;
+  color: $white;
+  border: 1px solid $primary-color;
+}
+
+  
+

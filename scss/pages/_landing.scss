@@ -1,0 +1,174 @@
+/** background exp **/
+.bg-exp {
+    padding: 32px 180px 32px 32px;
+    border-radius: 10px;
+}
+
+.bg-exp-1 {
+    background: url(../web/exp-1-paint-tool.png) no-repeat 110%;
+    background-size: 30%;
+    background-color: #FFE5D9;
+    transition: .3s ease-in-out;
+    border: 1px solid $shadow-exp-1;
+    box-shadow: 0px 1px 0px $shadow-exp-1, 0px 2px 0px $shadow-exp-1, 0px 3px 0px $shadow-exp-1, 0px 4px 0px $shadow-exp-1, 0px 5px 0px $shadow-exp-1, 0px 6px 0px $shadow-exp-1;
+
+    &:hover {
+        background-size: 35%;
+    }
+}
+
+.bg-exp-2 {
+    background: url(../web/exp-2-newin-agency.png) no-repeat 110%;
+    background-size: 30%;
+    background-color: #EAF2D7;
+    transition: .3s ease-in-out;
+    border: 1px solid $shadow-exp-2;
+    box-shadow: 0px 1px 0px $shadow-exp-2, 0px 2px 0px $shadow-exp-2, 0px 3px 0px $shadow-exp-2, 0px 4px 0px $shadow-exp-2, 0px 5px 0px $shadow-exp-2, 0px 6px 0px $shadow-exp-2;
+
+    &:hover {
+        background-size: 35%;
+    }
+}
+
+.bg-exp-3 {
+    background: url(../web/exp-3-doc-backend.png) no-repeat 110%;
+    background-size: 30%;
+    background-color: #DFE7FD;
+    transition: .3s ease-in-out;
+    border: 1px solid $shadow-exp-3;
+    box-shadow: 0px 1px 0px $shadow-exp-3, 0px 2px 0px $shadow-exp-3, 0px 3px 0px $shadow-exp-3, 0px 4px 0px $shadow-exp-3, 0px 5px 0px $shadow-exp-3, 0px 6px 0px $shadow-exp-3;
+
+    &:hover {
+        background-size: 35%;
+    }
+}
+
+.bg-exp-4 {
+    background: url(../web/exp-4-keyboard.png) no-repeat 110%;
+    background-size: 30%;
+    background-color: #FFD6E0;
+    transition: .3s ease-in-out;
+    border: 1px solid $shadow-exp-4;
+    box-shadow: 0px 1px 0px $shadow-exp-4, 0px 2px 0px $shadow-exp-4, 0px 3px 0px $shadow-exp-4, 0px 4px 0px $shadow-exp-4, 0px 5px 0px $shadow-exp-4, 0px 6px 0px $shadow-exp-4;
+
+    &:hover {
+        background-size: 35%;
+    }
+}
+
+/** Education & experience **/
+.year-exp {
+    font-weight: 600;
+}
+
+.school-company {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/** Mes derniers projets **/
+.bg-under-project {
+    background-color: #f5f6fd;
+    padding: 12px;
+    border: 1px solid $shadow-light;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 1px 0px $shadow-light, 0px 2px 0px $shadow-light, 0px 3px 0px $shadow-light, 0px 4px 0px $shadow-light, 0px 5px 0px $shadow-light, 0px 6px 0px $shadow-light;
+}
+
+.projet-btn {
+    text-decoration: none;
+    color: $primary-color;
+    transition: .25s all ease-in-out;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.project-title {
+    font-size: 22px;
+}
+
+.img-project {
+    border: 1px solid $shadow-light;
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+/** @salmiazzeddine16 **/
+.bg-insta {
+    border: 1px solid $shadow-light;
+    border-radius: 8px;
+}
+
+.insta-link {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.insta-link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 0;
+    border-radius: .375rem;
+    margin: 0 .25rem;
+}
+
+.icon-insta-link {
+    display: block;
+    top: 33%;
+    left: 37%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(../web/instagram.svg) no-repeat;
+    z-index: 3;
+    opacity: .75;
+    transition: .3s ease-in-out;
+}
+
+.icon-insta-link:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+@media (max-width:961px) {
+    .bg-exp {
+        padding: 32px;
+        border-radius: 10px;
+    }
+
+    .bg-exp-1 {
+        background: none;
+        background-color: #FFE5D9;
+    }
+
+    .bg-exp-2 {
+        background: none;
+        background-color: #EAF2D7;
+    }
+
+    .bg-exp-3 {
+        background: none;
+        background-color: #DFE7FD;
+    }
+
+    .bg-exp-4 {
+        background: none;
+        background-color: #FFD6E0;
+    }
+}

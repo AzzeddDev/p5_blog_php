@@ -1,0 +1,23 @@
+.social-icons {
+    color: $primary-color;
+    font-size: 32px;
+    margin: 0 6px;
+    transition: .3s all ease-in-out;
+
+    &:hover {
+        color: $secondary-color;
+        transform: scale(1.15);
+    }
+}
+
+.email {
+    font-size: 17px;
+    font-weight: 600;
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}

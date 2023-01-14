@@ -1,0 +1,28 @@
+.user-pic {
+    height: 80px;
+    width: 80px;
+    background-color: #00E99F;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 701;
+}
+
+.user-id {
+    background-color: #E8E9EE;
+    font-size: 14px;
+    font-weight: 700;
+    color: #84869C;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+.save-btn {
+    background-color: #E0E2F2;
+    padding: 12px 18px;
+    color: $primary-color;
+    border-radius: 6px;
+    text-decoration: none;
+}

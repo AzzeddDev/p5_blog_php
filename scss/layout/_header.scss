@@ -1,0 +1,35 @@
+.bg-header {
+    background: no-repeat url("../web/bg-logo-pattern.png");
+    background-size: cover;
+    background-color: $secondary-color;
+    padding: 100px 50px;
+    border: 2px solid $primary-color;
+    border-radius: 12px;
+    box-shadow: 0px 4px 0 $primary-color, 0px 3px 0 $primary-color, 0px 2px 0 $primary-color, 0px 1px 0 $primary-color;
+}
+
+.txt-header {
+    font-weight: 600;
+}
+
+.txt-md-center {
+    padding-right: 80px;
+}
+
+
+@media (max-width:961px) {
+    .bg-header {
+        padding: 75px 25px;
+    }
+
+    .txt-md-center {
+        padding-right: 15px ;
+    }
+}
+
+@media (max-width:320px) {
+    .txt-md-center {
+        padding: 0;
+        text-align: center;
+    }
+}

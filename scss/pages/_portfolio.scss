@@ -1,0 +1,21 @@
+.portfolio-last-project {
+    display: inline;
+    background-color: $white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.bg-text-project {
+    background: $primary-color;
+    padding: 45px;
+}
+
+.border-top-img {
+    border-radius: 12px 12px 0 0;
+}
+
+.border-bot-img {
+    border-radius: 0 0 12px 12px;
+}

@@ -1,0 +1,69 @@
+.border-footer {
+    border: 2px solid $shadow-light;
+    border-radius: 8px;
+    padding: 38px;
+    box-shadow: 0px 4px 0 $shadow-light, 0px 3px 0 $shadow-light, 0px 2px 0 $shadow-light, 0px 1px 0 $shadow-light;
+}
+
+.menu-footer-links {
+    color: $primary-color;
+    font-weight: 600;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: .25s all ease-in-out;
+
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+.mario {
+    position: relative;
+    height: 45px;
+}
+
+.player {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: url(../web/footer/mario.svg) no-repeat;
+    background-size: 30px;
+    bottom: 0;
+    left: 3%;
+}
+
+.goomba {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: url(../web/footer/goomba.svg) no-repeat;
+    background-size: 45px;
+    left: 26%;
+}
+
+.shroom {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: url(../web/footer/shroom.svg) no-repeat;
+    background-size: 45px;
+    left: 42%;
+}
+
+.turtle {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: url(../web/footer/turtle.svg) no-repeat;
+    background-size: 45px;
+    right: 21%;
+}
+
+.princess {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: url(../web/footer/princess.svg) no-repeat;
+    background-size: 45px;
+    right: 3%;
+}

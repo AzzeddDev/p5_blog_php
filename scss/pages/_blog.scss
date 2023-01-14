@@ -1,0 +1,32 @@
+.ze-blog {
+    font-size: 3.4rem !important;
+}
+
+.title-blog {
+    font-size: 3rem;
+    color: $primary-color;
+    font-weight: 800;
+    text-shadow: $title-shadow-light;
+}
+
+.newest-article {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.bg-article {
+    background-color: #f5f6fd;
+    padding: 12px;
+    border: 1px solid $shadow-light;
+    border-radius: 8px;
+    box-shadow: 0px 1px 0px $shadow-light, 0px 2px 0px $shadow-light, 0px 3px 0px $shadow-light, 0px 4px 0px $shadow-light, 0px 5px 0px $shadow-light, 0px 6px 0px $shadow-light;
+}
+
+.title-aside {
+    font-size: 1.2rem;
+}
+
+.line-aside {
+    display: block;
+    border-bottom: 1px solid #C6C8D7;
+}

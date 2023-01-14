@@ -1,0 +1,11 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="32" height="32" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="translate(1.666 1.333)">
+    <g id="Groupe_1" data-name="Groupe 1">
+      <path id="Tracé_2" data-name="Tracé 2" d="M21.333,10a5.333,5.333,0,1,0,5.333,5.333A5.333,5.333,0,0,0,21.333,10Zm0,8A2.667,2.667,0,1,1,24,15.333,2.667,2.667,0,0,1,21.333,18Z" transform="translate(-6.667 -4.667)" fill="#fff"/>
+      <path id="Tracé_3" data-name="Tracé 3" d="M16.667,2A14.6,14.6,0,1,0,27.057,6.276,14.667,14.667,0,0,0,16.667,2ZM8.533,25.467a17.6,17.6,0,0,1,8.133-2.133A17.6,17.6,0,0,1,24.8,25.467a11.933,11.933,0,0,1-16.267,0ZM26.6,23.4h0a20.467,20.467,0,0,0-9.933-2.733A20.467,20.467,0,0,0,6.733,23.4h0a11.8,11.8,0,0,1-2.067-6.733,12,12,0,0,1,24,0A11.8,11.8,0,0,1,26.6,23.4Z" transform="translate(-2 -2)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

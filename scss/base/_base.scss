@@ -1,0 +1,25 @@
+::selection {
+    color: $primary-color !important;
+    background: $secondary-color !important;
+}
+
+p {
+    font-size: 17px;
+    color: $primary-color;
+}
+
+h1 {
+    font-weight: 800;
+    text-shadow: $title-shadow-light;
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+    text-shadow: $subtitle-shadow;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
