@@ -7,7 +7,7 @@ Créez votre premier blog en PHP - [Lien de la formation](https://openclassrooms
 
 # Badge du projet
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1c508177d6b74de280ffd6d31460cda1)](https://www.codacy.com/gh/AzzeddDev/p4_bdd-ExpressFood/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AzzeddDev/p4_bdd-ExpressFood&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2f394909bb5d4d1fb790cfe8b1c4e74c)](https://www.codacy.com/gh/AzzeddDev/p5_blog_php/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AzzeddDev/p5_blog_php&amp;utm_campaign=Badge_Grade)
 
 
 # Blog PHP en architecture MVC

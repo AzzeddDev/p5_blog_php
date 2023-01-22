@@ -30,8 +30,8 @@ $mail->SMTPOptions = array(
 );
 
 //Provide username and password
-$mail->Username = "salmi.azzeddine100@gmail.com";
-$mail->Password = "fdwzlplmomdsyjxe";
+$mail->Username = "Your Email";
+$mail->Password = "Your App Password";
 
 //If SMTP requires TLS encryption then set it
 $mail->SMTPSecure = "tls";
