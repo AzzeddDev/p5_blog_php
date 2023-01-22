@@ -52,7 +52,7 @@ else {?>
         </div>
     </section>
 
-</main>
+    </main>
 
     <!-- Footer -->
     <?php
