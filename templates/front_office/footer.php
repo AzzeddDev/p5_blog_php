@@ -23,7 +23,7 @@
                 }
 
                 else { ?>
-                    <a class="menu-footer-links btn-footer ms-1" href="http://localhost/mon-blog/templates/front_office/se-connecter.php">Compte</a>
+                    <a class="menu-footer-links btn-footer ms-1" href="http://localhost/mon-blog/templates/admin_office/se-connecter.php">Espace Admin</a>
                 <?php }
                 ?>
             </div>
