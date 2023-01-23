@@ -43,12 +43,20 @@ if(isset($_SESSION['role_user'])) {
                                             <?php while ($c = $commentaires->fetch()) { ?>
                                                 <div class="col-md-6">
                                                     <div class="col-bg-infos justify-content-between mb-3">
-                                                        <div class="d-flex w-100 justify-content-between comment-btn ps-2">
+                                                        <div class="d-flex justify-content-between comment-btn ps-2">
                                                             <div class="d-flex align-items-center pe-2"><?= $c['pseudo'] ?> : <?= $c['commentaire'] ?></div>
-                                                            <a class="btn-delete"
-                                                               href="http://localhost/mon-blog/templates/admin_office/commentaires.php?type=commentaire&supprime=<?= $c['id'] ?>">
-                                                                <i class="fa-regular fa-trash-can"></i>
-                                                            </a>
+                                                            <div class="d-flex">
+
+                                                                <?php // if($commentaires['is_validate'] ==1 ) { ?>
+                                                                    <a class="btn-modify" href="http://localhost/mon-blog/templates/admin_office/commentaires.php?type=commentaire&validate=<?= $c['id'] ?>">
+                                                                        <i class="fa-regular fa-circle-check"></i>
+                                                                    </a>
+                                                                <?php // } ?>
+
+                                                                <a class="btn-delete" href="http://localhost/mon-blog/templates/admin_office/commentaires.php?type=commentaire&supprime=<?= $c['id'] ?>">
+                                                                    <i class="fa-regular fa-trash-can"></i>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
