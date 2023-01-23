@@ -12,6 +12,7 @@ function getPosts() {
         $post = [
             'id' => $row['id'],
             'title' => $row['title'],
+            'id_author' => $row['id_author'],
             'content' => $row['content'],
             'work_type' => $row ['work_type'],
             'image' => $row ['image']
@@ -37,4 +38,11 @@ function getPost($id) {
 
 if (isset($_GET['id']) && !empty($_GET['id'])) {
     $post = getPost($_GET['id']);
+}
+
+if(isset($_GET['id']) AND !empty($_GET['id'])) {
+    $database = dbConnect();
+    $getid = $_GET['id'];
+    $author_name = $database->prepare('SELECT p.*, m.pseudo FROM posts p JOIN membres m ON p.id_author = m.id WHERE p.id = ? ORDER BY id DESC');
+    $author_name->execute(array($getid));
 }
