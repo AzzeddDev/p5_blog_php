@@ -25,6 +25,10 @@ ob_start(); ?>
                             <div class="d-block">
                                 <div class="mb-2"><p class="post-latest"><?= $post['date_post'] ?></p></div>
                                 <h1 class="text-center pb-1"> <?= $post['title'] ?> </h1>
+
+                                <?php while ($a = $author_name->fetch()) { ?>
+                                    <div class="mb-2"><p class="post-latest">Publier par : <?= $a['pseudo'] ?></p></div>
+                                <?php } ?>
                             </div>
                         </div>
                     </div>
@@ -64,17 +68,20 @@ ob_start(); ?>
                         <h2 class="comment-title mb-4">Comments</h2>
 
                         <?php while ($c = $commentaires->fetch()) { ?>
-                            <div class="bg-article d-flex mb-4">
-                                <div class="pe-3">
-                                    <span class="input-group-user"><?= $c['pseudo'][0] ?></span>
-                                </div>
+                            <?php if ($c['is_validate'] == 1) { ?>
+                                <div class="bg-article d-flex mb-4">
+                                    <div class="pe-3">
+                                        <span class="input-group-user"><?= $c['pseudo'][0] ?></span>
+                                    </div>
 
-                                <div class="">
-                                    <h2 class="user-name"><?= $c['pseudo'] ?> :</h2>
-                                    <span class="text-sm"><?= $c['commentaire'] ?></span>
-                                    <p class="text-sm mb-1"></p>
+                                    <div class="">
+                                        <h2 class="user-name"><?= $c['pseudo'] ?> :</h2>
+                                        <span class="text-sm"><?= $c['commentaire'] ?></span>
+                                        <span class="text-sm"><?= $c['is_validate'] ?></span>
+                                        <p class="text-sm mb-1"></p>
+                                    </div>
                                 </div>
-                            </div>
+                            <?php } ?>
                         <?php } ?>
 
                         <?php if (isset($_SESSION['role_user'])) { ?>
