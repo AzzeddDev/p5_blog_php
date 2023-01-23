@@ -47,11 +47,11 @@ if(isset($_SESSION['role_user'])) {
                                                             <div class="d-flex align-items-center pe-2"><?= $c['pseudo'] ?> : <?= $c['commentaire'] ?></div>
                                                             <div class="d-flex">
 
-                                                                <?php // if($commentaires['is_validate'] ==1 ) { ?>
+                                                                <?php if($c['is_validate'] == 0 ) { ?>
                                                                     <a class="btn-modify" href="http://localhost/mon-blog/templates/admin_office/commentaires.php?type=commentaire&validate=<?= $c['id'] ?>">
                                                                         <i class="fa-regular fa-circle-check"></i>
                                                                     </a>
-                                                                <?php // } ?>
+                                                                <?php } ?>
 
                                                                 <a class="btn-delete" href="http://localhost/mon-blog/templates/admin_office/commentaires.php?type=commentaire&supprime=<?= $c['id'] ?>">
                                                                     <i class="fa-regular fa-trash-can"></i>
