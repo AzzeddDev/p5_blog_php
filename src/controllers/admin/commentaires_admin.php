@@ -19,7 +19,7 @@ if(isset($_SESSION['id'])) {
         if(isset($_GET['validate']) AND !empty($_GET['validate'])) {
             $validate = $_GET['validate'];
             $database = dbConnect();
-            $req = $database->prepare('UPDATE commentaires SET is_validate = 1 WHERE is_validate = 0');
+            $req = $database->prepare('UPDATE commentaires SET is_validate = 1 WHERE id = ? AND is_validate = 0');
             $req->execute(array($validate));
             header('Location: http://localhost/mon-blog/templates/admin_office/commentaires.php?=');
         }
