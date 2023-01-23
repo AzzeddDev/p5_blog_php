@@ -44,15 +44,6 @@ if(isset($_SESSION['role_user'])) {
                                         </form>
                                         <?php if(isset($message)) { echo $message; } ?>
 
-                                        <!--
-                                        <form class="row g-3 pb-3" action="../../src/controllers/admin/r_articles_admin.php" method="POST" enctype="multipart/form-data">
-                                            <input class="default-form-db" type="text" name="title" placeholder="Titre" />
-                                            <input class="default-form-db" type="text" name="work_type" placeholder="Work type" />
-                                            <textarea class="default-form-db" style="min-height: 300px" name="content" placeholder="Contenu de l'article"></textarea>
-                                            <input class="btn-classic w-auto" type="submit" value="Envoyer l'article" />
-                                        </form>
-                                        -->
-
                                     </div>
                                 </div>
                             </div>
