@@ -32,7 +32,7 @@ if(isset($_SESSION['role_user'])) {
                         <div class="col-md-8">
                             <div class="bg-dashboard-blocs mb-3">
                                 <div class="hello-hand"><i class="fa-regular fa-hand-peace"></i></div>
-                                <h1 class="hello-txt">Bienvenue dans votre espace <?php echo $_SESSION['pseudo']; ?></h1>
+                                <h1 class="hello-txt">Bienvenue dans votre espace <?php echo $user['pseudo']; ?></h1>
                             </div>
 
                             <div class="row gx-3">
