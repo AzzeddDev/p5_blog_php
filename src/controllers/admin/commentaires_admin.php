@@ -14,5 +14,14 @@ if(isset($_SESSION['id'])) {
             $req->execute(array($supprime));
             header('Location: http://localhost/mon-blog/templates/admin_office/commentaires.php?=');
         }
+
+        // Probleme bouton valider DELETE->UPDATE = is_validate=from 0 to 1
+        if(isset($_GET['validate']) AND !empty($_GET['validate'])) {
+            $validate = $_GET['validate'];
+            $database = dbConnect();
+            $req = $database->prepare('UPDATE commentaires SET is_validate = 1 WHERE is_validate = 0');
+            $req->execute(array($validate));
+            header('Location: http://localhost/mon-blog/templates/admin_office/commentaires.php?=');
+        }
     }
 }
