@@ -29,20 +29,22 @@ else {?>
 
                             <div class="d-flex justify-content-center">
                                 <div class="col-md-7">
-                                    <form name="formconnexion" method="POST" action="">
+                                    <form class="mb-3" name="formconnexion" method="POST" action="">
                                         <input class="form-control default-form mb-3" type="email" name="mailconnect" placeholder="Mail" />
                                         <input class="form-control default-form mb-3" type="password" name="mdpconnect" placeholder="Mot de passe" />
                                         <input class="btn-classic mb-3" type="submit" name="formconnexion" value="Se connecter !" />
                                     </form>
+
                                     <?php
                                     if(isset($erreur)) {
-                                        echo '<font color="red">'.$erreur."</font>";
+                                        echo '<div class="mb-3" style="display: inline; padding: 8px 12px; background: #fff; color: red; border-radius: 4px"><i class="fa-regular fa-circle-xmark pe-2"></i>'.$erreur."</div>";
                                     }
                                     ?>
+
                                 </div>
                             </div>
 
-                            <div class="text-center">
+                            <div class="text-center mt-3">
                                 <p class="log-sign-txt">Vous n'avez pas un compte ?</p>
                                 <div class="d-flex justify-content-center mb-4">
                                     <div class="">
