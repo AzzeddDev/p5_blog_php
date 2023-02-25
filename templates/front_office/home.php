@@ -114,6 +114,9 @@ ob_start(); ?>
                             <?php
                         }
                         ?>
+                        <div class="d-flex justify-content-center pt-3">
+                            <a class="btn-classic" href="http://localhost/mon-blog/templates/front_office/portfolio.php">Voir plus de projets</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -142,6 +145,9 @@ ob_start(); ?>
                             <?php
                         }
                         ?>
+                        <div class="d-flex justify-content-center pt-3">
+                            <a class="btn-classic" href="http://localhost/mon-blog/templates/front_office/blog.php">Voir plus d'articles</a>
+                        </div>
                     </div>
                 </div>
             </div>
