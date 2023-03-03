@@ -25,7 +25,7 @@ if (isset($_POST)) {
                     $file = $uniqueName . "." . $extension;
                     //$file = 5f586bf96dcd38.73540086.jpg
 
-                    //On stock le fichier dans le dossier du serveur
+                    //On stocke le fichier dans le dossier du serveur
                     $filePath = '../web/articles/' . $file;
 
                     $path = ($filePath);
